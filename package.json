@@ -1,0 +1,33 @@
+{
+  "name": "viewzr-api",
+  "version": "2.0.0",
+  "description": "RESTful API for viewzr.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: No tests specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viewzr/viewzr-api.git"
+  },
+  "keywords": [
+    "Viewzr"
+  ],
+  "author": "Michael Sleevi, Scott Clampet & Weston Harper",
+  "bugs": {
+    "url": "https://github.com/Viewzr/viewzr-api/issues"
+  },
+  "homepage": "https://github.com/Viewzr/viewzr-api#readme",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.1",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
