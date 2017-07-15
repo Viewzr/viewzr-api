@@ -4,12 +4,15 @@
   "description": "RESTful API for viewzr.com",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: No tests specified\" && exit 1",
-    "start": "nodemon server.js"
+    "build" : "echo \"No build complete yet\"",
+    "clean" : "cd ./api && rm -rf ./node-modules",
+    "test"  : "echo \"Error: No tests specified\"",
+    "start" : "node --harmony server.js",
+    "dev"   : "nodemon server.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Viewzr/viewzr-api.git"
+    "type" : "git",
+    "url"  : "git+https://github.com/Viewzr/viewzr-api.git"
   },
   "keywords": [
     "Viewzr"
