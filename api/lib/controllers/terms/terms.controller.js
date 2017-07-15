@@ -13,5 +13,5 @@ function putTerms() {
 }
 
 function deleteTerms() {
-  
+
 }
