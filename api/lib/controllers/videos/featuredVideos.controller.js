@@ -1,11 +1,10 @@
 var mongoose = require('mongoose');
-var Video = mongoose.model('Video');
+var Video = mongoose.model('Videos');
 
 function getFeaturedVideos(req, res, next) {
     var query = {
-      featured: 1
+      isFeatured: 1
     }
-
     return Video.find(query);
 }
 
