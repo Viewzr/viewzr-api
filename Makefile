@@ -1,4 +1,4 @@
-.PHONY: clean build deploy
+.PHONY: clean build deploy dev
 
 clean:
 	rm -rf dist
@@ -18,3 +18,6 @@ deploy:
 		sudo yum install -y dist/viewzr-api*.rpm
 		sudo systemctl daemon-reload
 		sudo systemctl restart viewzr-api
+
+dev:
+	npm run dev
